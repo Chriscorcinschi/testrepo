@@ -1,0 +1,152 @@
+<html>
+    <body>
+        <h1>addEventListener</h1>
+        <h4>Is a vital JavaScript method for managing web development events improving code readability and scalability.</h4>
+        <button id="myButton">Click me</button>
+
+        <script>
+            // Get the button element
+            const button = document.getElementById('myButton');
+
+            // Add event listener for 'click' event
+            button.addEventListener('click', handleButtonClick);
+            
+            // Function to handle button click
+            function handleButtonClick() {
+                console.log('Button clicked!');
+            }
+        </script>
+
+        <hr>
+
+        <h1>Click event</h1>
+        <button id="clickButton">Click Me!</button>
+        <p>This code creates an HTML button and uses JavaScript to add a click event listener. When the user clicks the button, it activates an alert that displays the message 'Button clicked!'</p>
+
+        <script>
+            document.getElementById('clickButton').addEventListener('click', function() {
+            alert('Button clicked!');
+            });
+        </script>
+
+        <hr>
+
+        <h1>Mouseover</h1>
+        <div id="moveArea" style="width: 200px; height: 200px; background-color: lightcoral;"></div>
+        <p>This code creates an HTML div element (moveArea) with a light coral background. It attaches a 'mousemove' event listener to moveArea, logging the mouse pointer coordinates to the console on movement.</p>
+
+        <script>
+            const moveArea = document.getElementById('moveArea');
+
+            moveArea.addEventListener('mousemove', function(event) {
+                console.log(`Mouse coordinates - X: ${event.clientX}, Y: ${event.clientY}`);
+            });
+        </script>
+
+        <hr>
+
+        <h1>Keyup and Keydown</h1>
+        <input type="text" id="keyInput">
+        <p>The code includes creating an HTML input field named keyInput and adding event listeners for both 'keydown' and 'keyup' events to this input field. Whenever a user presses a key within the input field, the console logs the message 'Key pressed down!'. Similarly, upon releasing the key, the console logs 'Key released!'.</p>
+
+        <script>
+            const keyInput = document.getElementById('keyInput');
+
+            keyInput.addEventListener('keydown', function() {
+                console.log('Key pressed down!');
+            });
+            keyInput.addEventListener('keyup', function() {
+                console.log('Key released!');
+            })
+        </script>
+
+        <hr>
+
+        <h1>Keypress</h1>
+        <h4>The keypress event in JavaScript occurs when a key on the keyboard is pressed down and produces a character value. It specifically represents pressing a key that results in a character input.</h4>
+        <input type="text" id="pressInput">
+        <p>This code created another input field (pressInput) in HTML and added an event listener for 'keypress' to pressInput. On pressing a key in the input field, the console logs 'Key pressed!'</p>
+        <script>
+            const pressInput = document.getElementById('pressInput');
+
+            pressInput.addEventListener('keypress', function() {
+                console.log('Key pressed!');
+            })
+        </script>
+
+        <hr>
+
+        <h1>Submit event</h1>
+        <form id="myForm">
+            <input type="text" id="textInput">
+            <input type="submit" value="Submit">
+        </form>
+        <p>The code establishes an HTML form with a text input and a submit button. An event listener on the form captures the 'submit' event. Upon submission, the listener triggers a function preventing default behavior and logging 'Form submitted!' to the console.</p>
+        
+        <script>
+            document.getElementById('myForm').addEventListener('submit', function(event) {
+                event.preventDefault(); // Prevents the default form submission behavior
+                console.log('Form submitted!')
+            })
+        </script>
+
+        <hr>
+
+        <h2>Change event</h2>
+        <p>Used when the value of an input element within the form changes. It applies to various form elements such as text inputs, checkboxes, radio buttons, and dropdowns. This event enables real-time validation, updates, or actions based on user input changes.</p>
+        
+        <hr>
+
+        <h1>Focus event</h1>
+        <input type="text" id="textInput" placeholder="Click here">
+        <p>The code creates a text input in HTML with placeholder text and adds 'Focus' and 'blur' event listeners to the input. When the input gains focus, the 'focus' listener logs 'Input focused', and when it loses focus, the 'blur' listener logs 'Input blurred' to the console.</p>
+        
+        <script>
+            const textInput = document.getElementById('textInput');
+
+            textInput.addEventListener('focus', function() {
+                console.log('Input focused');
+            })
+            textInput.addEventListener('blur', function() {
+                 console.log('Input blurred');
+            })
+        </script>
+   
+        <hr>
+        <h1> Window events</h1>
+        <h4>Window events in JavaScript handle browser windows or document changes, triggering actions for developers to capture and respond to specific states or behaviors.</h4>
+
+        <hr>
+
+        <h1>Load event</h1>
+        <p>This event adds an event listener to the window object for the 'load' event. When the document and its resources finish loading, the function logs 'Page and all resources loaded' to the console.</p>
+        <script>
+            window.addEventListener('load', function() {
+                console.log('Page and all resources loaded');
+            })
+        </script>
+
+        <h1>Resize event</h1>
+        <h4>Starts when the browser window changes size, enabling adjustments or responses to alterations in window dimensions</h4>
+        <script>
+            window.addEventListener('resize', function() {
+                console.log('Window resized');
+            })
+        </script>
+
+        <hr>
+
+        <h1>Scroll event</h1>
+        <div style="height: 2000px; background-color: lightblue;">
+            Scroll down
+        </div>
+        <p>This code creates a div in HTML for scrolling and adds an event listener to the window, listening for the 'scroll' event. When the user scrolls the document view, the 'scroll' event triggers a function that logs 'Document scrolled' to the console.</p>
+        
+        <script>
+            window.addEventListener('scroll', function() {
+                console.log('Document scrolled');
+            })
+        </script>
+
+    </body>
+</html>
