@@ -27,6 +27,6 @@ To run this project, you must use a local HTTP server. This allows the browser t
 
 Using Node.js
 
-```bash
+```
 bashnpx http-server
 ```
