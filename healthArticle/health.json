@@ -1,0 +1,68 @@
+{
+	"articles": [
+		{
+			"title": "Global Climate Action Summit 2025",
+			"description": "World leaders convene to address climate change with ambitious new targets and commitments to reduce carbon emissions and transition to renewable energy sources.",
+			"key_points": [
+				"195 countries pledge to achieve net-zero emissions by 2050.",
+				"$500 billion fund established to support developing nations in climate adaptation.",
+				"New regulations to phase out fossil fuel subsidies by 2030.",
+				"International cooperation on green technology research and development."
+			],
+			"impacts": [
+				"Accelerated transition to clean energy and sustainable practices.",
+				"Creation of millions of green jobs worldwide.",
+				"Improved air quality and reduced health risks from pollution.",
+				"Protection of ecosystems and biodiversity for future generations."
+			]
+		},
+		{
+			"title": "Breakthrough in Artificial Intelligence Ethics",
+			"description": "Leading tech companies and researchers announce new framework for responsible AI development, addressing concerns about privacy, bias, and transparency in AI systems.",
+			"key_points": [
+				"Establishment of international AI ethics board with regulatory powers.",
+				"Mandatory bias testing and transparency reports for AI systems.",
+				"New standards for data privacy and user consent in AI applications.",
+				"Collaboration between governments, academia, and industry on AI safety."
+			],
+			"impacts": [
+				"Increased public trust in AI technologies and applications.",
+				"Reduction in algorithmic bias and discrimination in automated systems.",
+				"Better protection of personal data and digital privacy rights.",
+				"More equitable access to AI benefits across different communities."
+			]
+		},
+		{
+			"title": "Revolutionary Medical Treatment Approved",
+			"description": "Health authorities approve groundbreaking gene therapy treatment that shows promise in curing previously untreatable genetic diseases, marking a new era in personalized medicine.",
+			"key_points": [
+				"FDA approves CRISPR-based therapy for rare genetic disorders.",
+				"Clinical trials show 85% success rate in treating specific conditions.",
+				"Treatment becomes available in major medical centers worldwide.",
+				"Insurance coverage negotiations underway to ensure accessibility."
+			],
+			"impacts": [
+				"Hope for patients with previously incurable genetic diseases.",
+				"Advancement in precision medicine and personalized healthcare.",
+				"Potential reduction in long-term healthcare costs for chronic conditions.",
+				"Opening new pathways for treating other genetic disorders."
+			]
+		},
+		{
+			"title": "Global Education Initiative Launches",
+			"description": "United Nations unveils ambitious program to provide quality education to 100 million children in underserved communities through digital learning platforms and infrastructure development.",
+			"key_points": [
+				"Investment of $50 billion over five years in educational infrastructure.",
+				"Distribution of tablets and internet access to remote communities.",
+				"Training of 500,000 teachers in digital education methodologies.",
+				"Development of multilingual educational content for diverse populations."
+			],
+			"impacts": [
+				"Improved literacy rates and educational outcomes in developing regions.",
+				"Increased economic opportunities for future generations.",
+				"Reduction in educational inequality and poverty cycles.",
+				"Enhanced global competitiveness and innovation capacity."
+			]
+		}
+	]
+}
